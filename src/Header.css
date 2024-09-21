@@ -1,0 +1,42 @@
+header{
+
+
+}
+.nav{
+    display: flex;
+    position: relative;
+    list-style: none;
+    justify-content: center;
+    align-items:center;
+    padding: 0;
+    gap: 20vw;
+}
+.menu{
+
+    display: flex;
+    position: relative;
+    gap:3vw;
+    list-style: none;
+
+}
+.TopBanner a{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: #98989A !important;
+    text-decoration: none;
+
+}
+.full_logo{
+    position: relative;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    display: flex;
+    gap: 0.5vw;
+    align-items: center;
+    font-size: 1.5vw;
+}
+@font-face {
+    font-family: "Kumbh Sans", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+}
